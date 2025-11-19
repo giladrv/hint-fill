@@ -1,3 +1,4 @@
+
 function fillFocusedWithPlaceholder() {
     var el = document.activeElement
 
