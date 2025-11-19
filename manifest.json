@@ -1,0 +1,29 @@
+{
+    "manifest_version": 3,
+    "name": "Fill With Placeholder",
+    "description": "Fill the focused text field with its placeholder text on demand.",
+    "version": "1.1.0",
+    "permissions": [
+        "scripting",
+        "activeTab",
+        "contextMenus"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_title": "Fill focused field with placeholder"
+    },
+    "commands": {
+        "fill-placeholder": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+P",
+                "mac": "Command+Shift+P"
+            },
+            "description": "Fill focused field with its placeholder text"
+        }
+    },
+    "icons": {
+        "128": "icon128.png"
+    }
+}
